@@ -1,0 +1,37 @@
+/*Resetting Css*/
+* {
+    margin: 0; padding: 0; 
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #FF9B9B;
+    height: 60px;
+}
+main {
+    background-color: #CBFFA9
+}
+footer {
+    background-color: #CBFFA9;
+}
+figure, nav, ul, li {
+    display: inline;
+}
+a {
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 10px;
+}
+#btn-entrar {
+    background-color: #9681EB;
+    border-radius: 9px;
+}
+#btn-entrar:hover {
+    background-color: #473b78;
+    transition: 0.3s;
+}
+nav {
+    position: fixed;
+    top: 20px;
+    right: 0px;
+}
